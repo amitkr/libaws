@@ -38,8 +38,7 @@ private:
     std::string theSecretAccessKey;
     unsigned int theSize;
 
-    T createConnection (const std::string& aAccessKeyId,
-      const std::string& aSecretAccessKey);
+    T createConnection (const std::string& aAccessKeyId, const std::string& aSecretAccessKey);
 
 public:
 
