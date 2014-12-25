@@ -16,6 +16,7 @@
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
+#include <unistd.h>
 #include <libaws/aws.h>
 
 using namespace aws;
